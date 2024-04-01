@@ -3,25 +3,8 @@
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 5px;
-    position: fixed;
-    left: -265px; /* Initially hide the sidebar */
-    top: 0;
-    bottom: 0;
-    transition: left 0.3s; /* Add transition effect */
-}
-
-.sidebar-trigger {
-    width: 20px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999; /* Ensure the trigger area is on top */
-}
-
-.sidebar-trigger:hover + .sidebar,
-.sidebar:hover {
-    left: 0; /* Display sidebar when hovering over the trigger area or sidebar */
+    margin-right: 70%;
+    padding-right: 1%;
 }
 
 .search-form {
@@ -29,14 +12,14 @@
 }
 
 .search-form input[type="text"] {
-    width: 40%; /* Adjust the width to make the search bar smaller */
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 .search-form button {
-    width: 25%;
+    width: 100%;
     padding: 8px;
     background-color: #007bff;
     color: #fff;
