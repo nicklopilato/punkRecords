@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki Category Template</title>
-    <link rel="stylesheet" href="../css/categoryTemplate.css">\
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="jquery.js"></script>
-    <script>
-        $(function(){
-            $("#sidebarContainer").load("sidebarTemplate.html"); 
-        });
-    </script>
+    <link rel="stylesheet" href="../css/categoryTemplate.css">
 </head>
 <body>
     <header>
-        <h1>My Wiki Page</h1>
+        <h1>Category Page</h1>
     </header>
 
-    <!-- Sidebar will be loaded here -->
-    <div id="sidebarContainer"></div>
+    <!-- Sidebar content directly included -->
+    <div id="sidebarContainer">
+        <!-- Sidebar content goes here -->
+        <div class="sidebar-trigger"></div>
+
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <form class="search-form" action="/search" method="get">
+                    <input type="text" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+                <a href="/home" class="home-link">Home</a>
+                <a href="/home" class="home-link">Characters</a>
+                <a href="/home" class="home-link">Fruits</a>
+            </div>
+        </aside>
+    </div>
 
     <table>
         <tr>
