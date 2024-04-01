@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    width: calc(100% - 250px); /* Adjusted width to accommodate the sidebar */
+    margin-left: 55px; /* Added margin equal to sidebar width */
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+/* Sidebar css */
+
+
+
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    left: -250px; /* Initially hide the sidebar */
+    top: 0;
+    bottom: 0;
+    transition: left 0.3s; /* Add transition effect */
+}
+
+.sidebar-trigger {
+    width: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensure the trigger area is on top */
+}
+
+.sidebar-trigger:hover + .sidebar,
+.sidebar:hover {
+    left: 0; /* Display sidebar when hovering over the trigger area or sidebar */
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    width: 40%; /* Adjust the width to make the search bar smaller */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    width: 25%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.home-link {
+    display: block;
+    padding: 8px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    background-color: #e6e6e6;
+}
