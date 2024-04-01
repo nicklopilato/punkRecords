@@ -28,12 +28,6 @@ th {
     background-color: #f2f2f2;
 }
 
-.character-image {
-    max-width: 100px; /* Adjust the maximum width of the image */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
 
 
 /* Sidebar css */
