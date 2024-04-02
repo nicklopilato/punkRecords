@@ -1,8 +1,13 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #2d3137;
 }
 
 .background {
@@ -20,10 +25,11 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    padding: 20px;
+    position: relative;
+    border: 3px solid #bf0a18;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    margin: 20px;
     overflow: hidden;
 }
 
@@ -32,14 +38,12 @@ body {
     color: #ecebe9;
     padding: 10px;
     margin: 0;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 .container .content {
-    background-color: #2d3137;
-    color: #ecebe9;
-    padding: 20px;
+    background-image: linear-gradient(rgba(236, 235, 233, 0.95), rgba(236, 235, 233, 0.95)), url("../images/background.png");
+    color: #2d3137;
+    padding: 10px;
 }
 
 .container .content p {
@@ -73,22 +77,22 @@ a {
     color: #0275f2;
 }
 
-#featured article {
-    background-color: #2d3137;
-    color: #ecebe9;
-    border: 4px solid #bf0a18;
-    padding: 20px;
-    margin-bottom: 20px;
+ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+li{
+    padding-bottom: 5px;
 }
 
 #double-section {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 #popular-pages, #release-dates {
-    width: 50%;
+    width: calc(50% - 10px); /* account for margin-right */
     box-sizing: border-box;
 }
 
