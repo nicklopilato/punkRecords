@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2d3137; /* Updated text color */
+}
+
+.background {
+    background-image: url("../images/background.png");
+    height: 100vh;
+    padding: 20px;
+}
+
+.content-container {
+    max-width: 1400px;
+    margin: 20px auto; /* Adjust margin as needed */
+    padding: 20px;
+    background-color: #ecebe9; /* Updated background color */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    /* background-color: #333; */
+    /* color: #fff; */
+    padding: 10px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Apply styles to the image to make it responsive */
+.logo {
+    width: 50%; /* Set the width to 50% of the container */
+    max-width: 3000px; /* Set maximum width to maintain aspect ratio */
+    height: auto; /* Let the height adjust proportionally */
+}
+
+
+header input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    
+}
+
+a {
+    color: #0275f2;
+}
+
+#featured {
+    /* background-color: #f9f9f9; */
+    padding: 20px 0;
+}
+
+#featured article {
+    background-color: #2d3137;
+    color: #ecebe9;
+    border: 4px solid #bf0a18;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#featured article h3 {
+    margin-top: 0;
+}
+
+#welcome {
+    padding: 20px 0;
+}
+
+#edits {
+    /* background-color: #f9f9f9; */
+    padding: 20px 0;
+}
+
+#edits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#edits li {
+    margin-bottom: 10px;
+}
+
+#edits li a {
+    /* color: #333; */
+    text-decoration: none;
+}
+
+#edits li a:hover {
+    text-decoration: underline;
+}
