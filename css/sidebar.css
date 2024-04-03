@@ -1,0 +1,91 @@
+.sidebar {
+    width: 130px; /* Set the initial width of the sidebar */
+    background-color: #ecebe9; /* Use Platinum for the sidebar background */
+    color: #2d3137; /* Use Gunmetal for the text color */
+    padding: 20px;
+    border: 3px solid #bf0a18; /* Use Cornell Red for the border */
+    border-radius: 8px; /* Match the border radius of the main content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5); /* Apply shadow for depth */
+    position: fixed;
+    left: -250px; /* Initially hide the sidebar */
+    top: 50%; /* Center the sidebar vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    transition: left 0.3s; /* Add transition effect */
+    height: 70vh; /* Set the height to 50% of the viewport height */
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Center items horizontally */
+    justify-content: flex-start; /* Center items vertically */
+}
+
+.sidebar-trigger {
+    width: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensure the trigger area is on top */
+}
+
+.sidebar-trigger:hover + .sidebar,
+.sidebar:hover {
+    left: 10px; /* Display sidebar when hovering over the trigger area or sidebar */
+}
+
+
+.search-form {
+    margin-bottom: 20px;
+    display: flex; /* Make the search bar and button flex items */
+    align-items: center; /* Center items vertically */
+}
+
+.search-form input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #2d3137;
+    border-right: none;
+    border-radius: 5px 0 0 5px; /* Rounded corners only on the left side */
+}
+
+.search-form button {
+    width: 34px; /* Set width to make the button square */
+    height: 33px; /* Match the height of the text field */
+    padding: 0; /* Remove padding to ensure square shape */
+    border: 1px solid #2d3137;
+    border-left: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners only on the right side */
+    background-color: #D5A022; /* Yellow background color */
+    background-image: url("../images/search-icon.png"); /* Add PNG icon */
+    background-size: cover; /* Ensure the icon covers the button */
+    background-repeat: no-repeat; /* Prevent repeating of the icon */
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #2d3137; /* Darken the background color on hover */
+}
+
+.page-link {
+    display: flex;
+    align-items: center; /* Keep items centered vertically */
+    padding: 8px 0;
+    color: #2d3137;
+    text-decoration: none;
+    text-align: left; /* Align text to the left */
+}
+
+.page-link img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.sidebar-botImage {
+    position: absolute; /* Position the image absolutely within the sidebar */
+    bottom: 5px; /* Adjust this value to control the distance from the bottom */
+    height: 210px; /* Set the height of the image */
+    width: auto; /* Allow the width to adjust proportionally */
+}

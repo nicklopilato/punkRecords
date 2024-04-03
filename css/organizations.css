@@ -44,8 +44,8 @@
         color: #ecebe9; /* Use Platinum for the table header text color */
     }
     
-    .character-image {
-        max-height: 250px;
+    .logo-image {
+        max-height: 150px;
         width: auto;
         display: block; /* Ensure images are displayed as blocks */
         margin: 0 auto; /* Center images horizontally within their containers */
