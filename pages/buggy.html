@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiki Category Template</title>
-    <link rel="stylesheet" href="../css/bioTemplate.css">
+    <title><!--#echo var="title" --></title>
     <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/articles.css">
 </head>
 <body>
-    <header>
-        <h1>Buggy</h1>
-    </header>
-
     <!-- Sidebar content directly included -->
     <div id="sidebarContainer">
         <!-- Sidebar content goes here -->
@@ -31,15 +27,24 @@
             </div>
         </aside>
     </div>
-    <div class="container">
-        <div class="content">
-            <h1>Wiki Page Title</h1>
-            <p>This is some sample text for the wiki page. You can replace it with your own content.</p>
-        </div>
-        <div class="image">
-            <img src="../images/buggyChar.png" alt="Character Image">
-            <p>This is the caption for the image.</p>
-        </div>
-    </div> 
+    
+    <div id="foreground">
+        <header>
+            <h1>Title</h1>
+        </header>
+        <section id="double-section">
+            <div class="content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime quidem similique reiciendis perferendis dolor sunt debitis sit expedita quos consequuntur vel, earum tenetur, quae alias esse dicta voluptate deserunt eligendi?
+            </div>
+            <div class="quick-content">
+                <img src="../images/luffyChar.png" alt="character image">
+                <h2>Quick Facts</h2>
+                <p><strong>Fact 1:</strong> so cool</p>
+                <p><strong>Fact 2:</strong> much wow</p>
+                <p><strong>Fact 3:</strong> unreal</p>
+                <p><strong>Fact 4:</strong> kill me</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
