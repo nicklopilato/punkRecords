@@ -96,7 +96,7 @@ th {
 }
 
 .search-form input[type="text"] {
-    width: 50%;
+    width: 60%;
     padding: 8px;
     border: 1px solid #2d3137;
     border-right: none;
@@ -130,23 +130,7 @@ th {
     text-align: left; /* Align text to the left */
 }
 
-
-.home-icon {
-    background-image: url("../images/home-icon.png");
-}
-
-.home-icon {
-    background-image: url("../images/home-icon.png"); /* URL to the home icon */
-}
-
-.characters-icon {
-    background-image: url("../images/characters-icon.png"); /* URL to the characters icon */
-}
-
-.organizations-icon {
-    background-image: url("../images/organizations-icon.png"); /* URL to the organizations icon */
-}
-
-.fruits-icon {
-    background-image: url("../images/fruits-icon.png"); /* URL to the fruits icon */
+.page-link img {
+    width: 30px;
+    height: auto;
 }
