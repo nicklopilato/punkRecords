@@ -1,56 +1,77 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("../images/background.png"); /* Apply the background image */
+    padding: 20px;
+}
+
+#foreground {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 3px solid #bf0a18;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #bf0a18; /* Use Cornell Red for the header background */
+    color: #ecebe9; /* Use Platinum for the text color */
     text-align: center;
     padding: 20px 0;
 }
 
 table {
-    width: calc(100% - 250px); /* Adjusted width to accommodate the sidebar */
-    margin-left: 55px; /* Added margin equal to sidebar width */
+    width: 100%; /* Set the table width to 100% */
     border-collapse: collapse;
+    background-color: #ecebe9; /* Use Platinum for the table background */
 }
 
-
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #bf0a18; /* Use Cornell Red for borders */
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #2d3137; /* Use Gunmetal for the table header background */
+    color: #ecebe9; /* Use Platinum for the table header text color */
 }
 
 .character-image {
-    max-width: 100px; /* Adjust the maximum width of the image */
-    height: auto; /* Maintain aspect ratio */
+    max-height: 250px;
+    width: auto;
+    display: block; /* Ensure images are displayed as blocks */
+    margin: 0 auto; /* Center images horizontally within their containers */
 }
 
-
-
-
-/* Sidebar css */
-
-
-
-
 .sidebar {
-    width: 250px;
-    background-color: #f4f4f4;
+    width: 130px; /* Set the initial width of the sidebar */
+    background-color: #ecebe9; /* Use Platinum for the sidebar background */
+    color: #2d3137; /* Use Gunmetal for the text color */
     padding: 20px;
-    border-radius: 5px;
+    border: 3px solid #bf0a18; /* Use Cornell Red for the border */
+    border-radius: 8px; /* Match the border radius of the main content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5); /* Apply shadow for depth */
     position: fixed;
     left: -250px; /* Initially hide the sidebar */
-    top: 0;
-    bottom: 0;
+    top: 50%; /* Center the sidebar vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
     transition: left 0.3s; /* Add transition effect */
+    height: 70vh; /* Set the height to 50% of the viewport height */
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
 }
 
 .sidebar-trigger {
@@ -64,41 +85,68 @@ th {
 
 .sidebar-trigger:hover + .sidebar,
 .sidebar:hover {
-    left: 0; /* Display sidebar when hovering over the trigger area or sidebar */
+    left: 10px; /* Display sidebar when hovering over the trigger area or sidebar */
 }
+
 
 .search-form {
     margin-bottom: 20px;
+    display: flex; /* Make the search bar and button flex items */
+    align-items: center; /* Center items vertically */
 }
 
 .search-form input[type="text"] {
-    width: 40%; /* Adjust the width to make the search bar smaller */
+    width: 50%;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #2d3137;
+    border-right: none;
+    border-radius: 5px 0 0 5px; /* Rounded corners only on the left side */
 }
 
 .search-form button {
-    width: 25%;
-    padding: 8px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    width: 34px; /* Set width to make the button square */
+    height: 33px; /* Match the height of the text field */
+    padding: 0; /* Remove padding to ensure square shape */
+    border: 1px solid #2d3137;
+    border-left: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners only on the right side */
+    background-color: #D5A022; /* Yellow background color */
+    background-image: url("../images/search-icon.png"); /* Add PNG icon */
+    background-size: cover; /* Ensure the icon covers the button */
+    background-repeat: no-repeat; /* Prevent repeating of the icon */
     cursor: pointer;
 }
 
 .search-form button:hover {
-    background-color: #0056b3;
+    background-color: #2d3137; /* Darken the background color on hover */
 }
 
-.home-link {
-    display: block;
+.page-link {
+    display: flex;
+    align-items: center; /* Keep items centered vertically */
     padding: 8px 0;
-    color: #333;
+    color: #2d3137;
     text-decoration: none;
+    text-align: left; /* Align text to the left */
 }
 
-.home-link:hover {
-    background-color: #e6e6e6;
+
+.home-icon {
+    background-image: url("../images/home-icon.png");
+}
+
+.home-icon {
+    background-image: url("../images/home-icon.png"); /* URL to the home icon */
+}
+
+.characters-icon {
+    background-image: url("../images/characters-icon.png"); /* URL to the characters icon */
+}
+
+.organizations-icon {
+    background-image: url("../images/organizations-icon.png"); /* URL to the organizations icon */
+}
+
+.fruits-icon {
+    background-image: url("../images/fruits-icon.png"); /* URL to the fruits icon */
 }

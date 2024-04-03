@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Category Template</title>
+    <link rel="icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/characters.css">
+</head>
+<body>
+
+    <!-- Sidebar content directly included -->
+    <div id="sidebarContainer">
+        <!-- Sidebar content goes here -->
+        <div class="sidebar-trigger"></div>
+
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <form class="search-form" action="/search" method="get">
+                    <input type="text" name="q" placeholder="Search...">
+                    <button type="submit"></button>
+                </form>
+                <a href="home.html" class="home-link">Home</a>
+                <a href="characters.html" class="home-link">Characters</a>
+                <a href="fruits.html" class="home-link">Fruits</a>
+                <a href="organizations.html" class="home-link">Fruits</a>
+            </div>
+        </aside>
+    </div>
+    <div id="foreground">
+        <header>
+            <h1>Characters</h1>
+        </header>
+    
+        <table>
+            <tr>
+                <th>Character</th>
+                <th>Poster</th> <!-- wanted poster -->
+                <th>Crew</th>
+                <th>Fruit</th>
+            </tr>
+            <tr>
+                <td id="strawhat"><a href="luffy.html">Monkey D. Luffy</a></td>
+                <td><img src="../images/luffy.png" alt="luffy" class="character-image"></td>
+                <td><a href="strawhats.html">Strawhat Pirates</a>, Yonko</td>
+                <td><a href="gomugomu.html">Gomu Gomu no Mi</a></td>
+            </tr>
+            <tr>
+                <td id="strawhat"><a href="zoro.html">Roronoa Zoro</a></td>
+                <td><img src="../images/zoro.png" alt="zoro" class="character-image"></td>
+                <td><a href="strawhats.html">Strawhat Pirates</a></td>
+                <td>N/A</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

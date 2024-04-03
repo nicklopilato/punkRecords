@@ -82,7 +82,7 @@ window.onload = function() {
     
     // Mock data for demonstration
     const releaseDates = {
-        nextMangaDate: "2024-04-25", // Example date for next manga chapter
+        nextMangaDate: "2024-04-22", // Example date for next manga chapter
         nextAnimeDate: "2024-04-07" // Example date for next anime episode
     };
     
