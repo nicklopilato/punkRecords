@@ -1,0 +1,59 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-image: url("../images/background.png"); /* Apply the background image */
+        padding: 20px;
+    }
+    
+    #foreground {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: #ecebe9;
+        border: 3px solid #bf0a18;
+        border-radius: 8px;
+    }
+    
+    header {
+        background-color: #bf0a18; /* Use Cornell Red for the header background */
+        color: #ecebe9; /* Use Platinum for the text color */
+        text-align: center;
+        padding: 20px 0;
+        flex: 1; /* Take the remaining space */
+    }
+
+    .content {
+        float: left;
+        width: 70%;
+        margin: 25px;
+        flex: 1; /* Take the remaining space */
+    }
+
+    .quick-content {
+        float: right;
+        width: 20%;
+        border: 3px solid #bf0a18;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+        margin: 10px;
+        text-align: center; /* Center the content within .quick-content */
+    }
+    
+    .quick-content img {
+        max-width: 100%;
+        display: block; /* Ensure the image is centered */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+    
+    .quick-content h2 {
+        background-color: #bf0a18; /* Use Cornell Red for the header background */
+        color: #ecebe9; /* Use Platinum for the text color */
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 0; /* Remove the default margin from h2 */
+    }

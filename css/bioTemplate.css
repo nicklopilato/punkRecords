@@ -1,46 +1,57 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url("../images/background.png"); /* Apply the background image */
+  padding: 20px;
 }
-  
+
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px; /* Adjust this value according to the width of your sidebar */
-  }
-  
-  .content {
-    flex: 1;
-    /* padding: 10px; Adjust padding */
-    margin-right: 20px; /* Add margin to push content away from the sidebar */
-    margin-bottom: 350px; /* Adjust margin to move content up */
-  }
-  
-  .image img {
-    max-width: 100%;
-    height: auto;
-    width: 200px; /* Adjust the width as needed */
-    padding: 10px; /* Adjust padding */
-    margin-top: 10px; /* Adjust margin to move image up */
-    margin-right: 10px;
-    margin-left: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add drop shadow */
-  }
-  
-  .image p {
-    text-align: center; /* Center the caption */
-    padding: 10px; /* Same padding as the image */
-    margin-top: 10px; /* Same margin as the image */
-    margin-right: 10px; /* Same margin as the image */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Same drop shadow as the image */
-  }
+  max-width: 1400px;
+  margin: 20px auto;
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd; /* Add border */
+  border-top: none;
+  border-radius: 8px;
+  display: flex; /* Add flexbox layout */
+}
+
+header {
+  width: 100%; /* Adjust width */
+  background-color: #005da6; /* Set background color */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  margin-left: 20px; /* Add margin to separate from image */
+}
+
+.image {
+  width: 200px; /* Set width */
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image p {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
