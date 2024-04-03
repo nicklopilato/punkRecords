@@ -1,0 +1,105 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .background {
+        background-image: url("../images/background.png");
+        padding: 20px;
+    }
+    
+    .foreground {
+        max-width: 1400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ecebe9;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        position: relative;
+        border: 3px solid #bf0a18;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+        margin: 20px;
+        overflow: hidden;
+    }
+    
+    .container h2 {
+        background-color: #bf0a18;
+        color: #ecebe9;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .container .content {
+        background-image: linear-gradient(rgba(236, 235, 233, 0.95), rgba(236, 235, 233, 0.95)), url("../images/background.png");
+        background-position: center; /* Center the background image */
+        color: #2d3137;
+        padding: 10px;
+        height: 100%; /* Make the content div fill the entire height of its container */
+        border-radius: 8px; /* Apply border-radius to all corners */
+    }
+    
+    .container .content p {
+        margin-bottom: 0;
+    }
+    
+    
+    header {
+        padding: 10px 0;
+    }
+    
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        width: 50%;
+        max-width: 3000px;
+        height: auto;
+    }
+    
+    header input[type="text"] {
+        width: 60%;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
+    
+    a {
+        color: #0275f2;
+    }
+    
+    ul{
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
+    }
+    
+    li{
+        padding-bottom: 5px;
+    }
+    
+    #double-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #popular-pages, #release-dates {
+        width: calc(50% - 10px); /* account for margin-right */
+        box-sizing: border-box;
+    }
+    
+    #popular-pages {
+        margin-right: 20px;
+    }

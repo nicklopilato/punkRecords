@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki Category Template</title>
+    <link rel="icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/fruits.css">
 </head>
 <body>
-    <header>
-        <h1>Fruits</h1>
-    </header>
 
     <!-- Sidebar content directly included -->
     <div id="sidebarContainer">
@@ -20,32 +20,41 @@
             <div class="sidebar-content">
                 <form class="search-form" action="/search" method="get">
                     <input type="text" name="q" placeholder="Search...">
-                    <button type="submit">Search</button>
+                    <button type="submit"></button>
                 </form>
-                <a href="home.html" class="home-link">Home</a>
-                <a href="characters.html" class="home-link">Characters</a>
-                <a href="fruits.html" class="home-link">Fruits</a>
+                <a href="home.html" class="page-link"><img src="../images/thouSunny-icon.png" alt="Home"></span>Home</a>
+                <a href="characters.html" class="page-link"><img src="../images/luffy-icon.png" alt="Characters">Characters</a>
+                <a href="organizations.html" class="page-link"><img src="../images/jollyRoger-icon.png" alt="Organizations">Organizations</a>
+                <a href="fruits.html" class="page-link"><img src="../images/fruits-icon.png" alt="Fruits">Fruits</a>
+                <img src="../images/vegapunk-sidebar.png" alt="Vegapunk" class="sidebar-botImage">
             </div>
         </aside>
     </div>
-
-    <table>
-        <tr>
-            <th>Section</th>
-            <th>Content</th>
-        </tr>
-        <tr>
-            <td id="section1">Section 1</td>
-            <td>This is the content of section 1.</td>
-        </tr>
-        <tr>
-            <td id="section2">Section 2</td>
-            <td>This is the content of section 2.</td>
-        </tr>
-        <tr>
-            <td id="section3">Section 3</td>
-            <td>This is the content of section 3.</td>
-        </tr>
-    </table>
+    <div id="foreground">
+        <header>
+            <h1>Devil Fruits</h1>
+        </header>
+    
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Type</th>
+                <th>Holder</th>
+            </tr>
+            <tr>
+                <td><a href="gomugomu.html">Gomu Gomu no Mi</a></td>
+                <td><img src="../images/gomugomu.png" alt="gomugomu" class="fruit-image"></td>
+                <td>Logia</td>
+                <td><a href="luffy.html">Monkey D. Luffy</a></td>
+            </tr>
+            <tr>
+                <td><a href="meramera.html">Mera Mera no Mi</a></td>
+                <td><img src="../images/meramera.png" alt="gomugomu" class="fruit-image"></td>
+                <td>Logia</td>
+                <td><a href="sabo.html">Sabo</a>, <a href="ace.html">Portgas D. Ace</a><i>(formerly)</i></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
