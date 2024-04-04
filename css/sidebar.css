@@ -86,6 +86,6 @@
 .sidebar-botImage {
     position: absolute; /* Position the image absolutely within the sidebar */
     bottom: 5px; /* Adjust this value to control the distance from the bottom */
-    height: 210px; /* Set the height of the image */
+    max-height: 210px; /* Set the height of the image */
     width: auto; /* Allow the width to adjust proportionally */
 }
