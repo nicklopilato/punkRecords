@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><!--#echo var="title" --></title>
-    <link rel="stylesheet" href="../css/sidebar.css">
-    <link rel="stylesheet" href="../css/articles.css">
-</head>
+    <title>PikaPika</title>
+    <link rel="icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/vegapunk.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/theme-toggle.css">
+    <link id="theme-style" rel="stylesheet" href="../css/sidebar-light.css">
+    <link rel="stylesheet" href="../css/articles-light.css">
+    <script src="../scripts/theme.js" defer></script></head></head>
 <body>
+    <input type="checkbox" id="darkmode-toggle"/>
+    <label for="darkmode-toggle"></label> 
     <!-- Sidebar content directly included -->
     <div id="sidebarContainer">
         <!-- Sidebar content goes here -->
@@ -80,5 +85,14 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,76 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url("../images/background-dark.png") repeat;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#foreground {
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #ecebe9;
+    background-color: #2d3137;
+    border: 3px solid #D5A022;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+}
+
+#foreground a {
+    color: #0275f2;
+}
+
+header {
+    background-color: #D5A022;
+    color: #2d3137;
+    text-align: center;
+    padding: 0px 0;
+}
+
+#double-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 70%;
+    margin: 20px;
+    flex: 1; /* Allow content to grow */
+}
+
+.quick-content {
+    max-width: 21%; /* Adjust the width */
+    border: 3px solid #D5A022;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    margin: 10px;
+    text-align: left;
+    align-self: flex-end; /* Align quick-content to the end */
+}
+
+.quick-content p {
+    padding: 5px;
+    color: #ecebe9;
+
+}
+
+.quick-content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.quick-content h2 {
+    background-color: #D5A022;
+    color: #2d3137;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0;
+}
