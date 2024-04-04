@@ -11,6 +11,7 @@
     }
     
     .background {
+        height: 100%; /* Set the height of the background to 100% of the viewport height */
         background-image: url("../images/background.png");
         padding: 20px;
     }
