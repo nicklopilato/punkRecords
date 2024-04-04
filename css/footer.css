@@ -3,6 +3,19 @@ footer {
     background-color: #2d3137; /* Change the background color as needed */
     color: #ecebe9; /* Change the text color as needed */
     padding: 20px 0; /* Adjust padding as needed */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center content horizontally */
+    margin-top: 300px;
+    bottom: 0;
+}
+
+/* Page bottom container */
+.page-bottom {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add gap between items */
 }
 
 /* Back to top button */
@@ -25,12 +38,17 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
     gap: 20px; /* Add gap between columns */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align items at the top */
 }
+
 
 /* Column style */
 .column {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center content horizontally */
 }
 
 /* Style for headings */

@@ -7,8 +7,10 @@
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url("../images/background.png"); /* Apply the background image */
-        padding: 20px;
+        background: url("../images/background.png") repeat;
+        padding: 0px;
+        padding-bottom: 0px;
+        
     }
     
     #foreground {
@@ -43,7 +45,7 @@
         color: #ecebe9; /* Use Platinum for the table header text color */
     }
     
-    .character-image {
+    body img {
         max-height: 250px;
         width: auto;
         display: block; /* Ensure images are displayed as blocks */
