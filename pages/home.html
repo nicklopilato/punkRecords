@@ -4,58 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punk Records: One Piece Wiki</title>
-    <link rel="stylesheet" href="../css/styleB.css">
     <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/styleB.css">
     <script src="../scripts/home.js" defer></script>
 </head>
-<body> 
-        <div class="foreground">
-            <header>
-                <div class="container2">
-                    <img src="../images/OP-logo.png" alt="One Piece Logo" class="logo">
-                    <input type="text" id="searchInput" placeholder="Search...">
+<body>
+    <input type="checkbox" id="darkmode-toggle"/>
+    <label for="darkmode-toggle"></label> 
+    <div class="foreground">
+         <header>
+            <div class="container2">
+                <img src="../images/OP-logo.png" alt="One Piece Logo" class="logo">
+                <input type="text" id="searchInput" placeholder="Search...">
 
-                    <!-- Search results display area -->
-                    <ul id="searchResults"></ul>
+                <!-- Search results display area -->
+                <ul id="searchResults"></ul>
 
-                    <script src="search.js"></script>
-                </div>
-            </header>
+                <script src="search.js"></script>
+            </div>
+        </header>
         
-            <section id="welcome" class="container">
-                <h2>Welcome to Punk Records a One Piece Wiki!</h2>
+        <section id="welcome" class="container">
+            <h2>Welcome to Punk Records a One Piece Wiki!</h2>
+            <div class="content">
+                <p>Here you can find information about the characters, devil fruits, and organizations in the world of One Piece.</p>
+            </div>
+        </section>
+        
+        <section id="featured" class="container">
+            <h2>Featured Article</h2>
+            <div class="content" id="featured-content">
+                <!-- Featured article content will be added dynamically by JavaScript -->
+            </div>
+        </section>
+
+        <section id="double-section">
+            <section id="popular-pages" class="container">
+                <h2>Popular Pages</h2>
                 <div class="content">
-                    <p>Here you can find information about the characters, devil fruits, and organizations in the world of One Piece.</p>
+                    <ul>
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="fruits.html">Devil Fruits</a></li>
+                        <li><a href="characters.html">Organizations</a></li>
+                    </ul>
                 </div>
             </section>
-        
-            <section id="featured" class="container">
-                <h2>Featured Article</h2>
-                <div class="content" id="featured-content">
-                    <!-- Featured article content will be added dynamically by JavaScript -->
-                </div>
-            </section>
-
-            <section id="double-section">
-                <section id="popular-pages" class="container">
-                    <h2>Popular Pages</h2>
-                    <div class="content">
-                        <ul>
-                            <li><a href="characters.html">Characters</a></li>
-                            <li><a href="fruits.html">Devil Fruits</a></li>
-                            <li><a href="characters.html">Organizations</a></li>
-                        </ul>
-                    </div>
-                </section>
             
-                <section id="release-dates" class="container">
-                    <h2>Release Dates</h2>
-                    <div class="content" id="release-content">
-                        <!-- Release dates content will be added dynamically by JavaScript -->
-                    </div>
-                </section>
+            <section id="release-dates" class="container">
+                <h2>Release Dates</h2>
+                <div class="content" id="release-content">
+                     <!-- Release dates content will be added dynamically by JavaScript -->
+                </div>
             </section>
-        </div>
+        </section>
+    </div>
     
 
     <!-- Sidebar content directly included -->
