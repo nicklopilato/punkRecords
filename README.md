@@ -3,7 +3,7 @@
 Welcome to Punk Records, a One Piece Wiki where you can explore information about characters, devil fruits, and organizations in the world of One Piece.
 
 ## Overview
-For our web development class's final project, we decided to try and tackle a wiki. We chose the theme of One Piece and must give credit to how much inspiration we took from the official wiki. The intent of this project was to develop an acceptable final project whilst having fun implementing an idea we have interest in. Hence, the closer similarities to the official site will not be claimed as an idea completely thought of on our own. Some of the categories listed below are simply for show and have no functionality. If we were to continue developing this project then they would certainly have functionality in the near future.
+*For our web development class's final project, we decided to try and tackle a wiki. We chose the theme of One Piece and must give credit to how much inspiration we took from the official wiki. The intent of this project was to develop an acceptable final project whilst having fun implementing an idea we have interest in. Hence, the closer similarities to the official site will not be claimed as an idea completely thought of on our own. Some of the categories listed below are simply for show and have no functionality. If we were to continue developing this project then they would certainly have functionality in the near future.*
 
 Punk Records is a comprehensive online resource dedicated to providing fans of the One Piece series with detailed information about various aspects of the fictional world created by Eiichiro Oda. From character profiles to devil fruit abilities, our website aims to be your go-to destination for all things One Piece.
 
