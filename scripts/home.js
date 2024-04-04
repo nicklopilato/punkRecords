@@ -4,7 +4,7 @@ window.onload = function() {
         // Mock data for demonstration
         const articles = [
             { title: "Luffy", image:"../images/luffyChar.png", content: "Luffy is the main protagonist in the tv show One Piece. He always has a smile on his face as he continues on his adventure to become the Pirate King. In search of the One Piece to achieve his goal, he makes many of friends, some of which join his crew in pursuit of their own dreams.", link: "../pages/luffy.html" },
-            { title: "Zoro", image:"../images/zoroChar.png", content: "Zoro is a swordsman on his journey to beceome the World's Greatest Swordsman, a title currently held by <a href='../pages/mihawk.html'>Dracule Mihawk</a>. Additonally, Zoro is the Vice Captain of the Strawhat Pirates as he was the second-ever member. He is most known for his unique three-sword style.", link: "../pages/Zoro.html" },
+            { title: "Zoro", image:"../images/zoroChar.png", content: "Zoro is a swordsman on his journey to beceome the World's Greatest Swordsman, a title currently held by <a href='../pages/mihawk.html'>Dracule Mihawk</a>. Additonally, Zoro is the Vice Captain of the Strawhat Pirates as he was the second member to join. He is most known for his unique three-sword style as well as his past life od pirate hunting..", link: "../pages/Zoro.html" },
             { title: "Strawhat Pirates", image:"../images/jollyRoger-icon.png", content: "The Strawhat Pirates are a group of fearsome pirates led by their captain, <a href='../pages/luffy.html'>Monkey. D Luffy</a>. After 2 years, they have gained numerous allies and Luffy has even attained the title Emperor of the Sea.", link: "../pages/strawhats.html" }
         ];
 

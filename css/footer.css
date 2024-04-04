@@ -1,0 +1,80 @@
+/* Footer container */
+footer {
+    background-color: #2d3137; /* Change the background color as needed */
+    color: #ecebe9; /* Change the text color as needed */
+    padding: 20px 0; /* Adjust padding as needed */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center content horizontally */
+    margin-top: 300px;
+    bottom: 0;
+}
+
+/* Page bottom container */
+.page-bottom {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add gap between items */
+}
+
+/* Back to top button */
+#backToTopBtn {
+    background-color: #bf0a18; /* Change the button background color */
+    color: #ecebe9; /* Change the button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+#backToTopBtn:hover {
+    background-color: #87150a; /* Change button background color on hover */
+}
+
+/* List of links container */
+.one-piece-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 20px; /* Add gap between columns */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align items at the top */
+}
+
+
+/* Column style */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center content horizontally */
+}
+
+/* Style for headings */
+.one-piece-links h3 {
+    color: #fff; /* Change the heading color as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add margin below headings */
+}
+
+/* Style for list items */
+.one-piece-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.one-piece-links ul li {
+    margin-bottom: 5px; /* Adjust bottom margin as needed */
+}
+
+.one-piece-links ul li a {
+    color: #fff; /* Change link color as needed */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.one-piece-links ul li a:hover {
+    color: #bf0a18; /* Change link color on hover */
+}

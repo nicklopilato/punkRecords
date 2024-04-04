@@ -1,8 +1,15 @@
+/* Colors
+    Platinum       ecebe9    rgba(236, 235, 233, 1)
+    Gunmetal       2d3137    rgba(45, 49, 55, 1)
+    Cornell Red    bf0a18    rgba(191, 10, 24, 1)
+    Goldenrod      D5A022    rgba(213, 160, 34, 1)
+    Crayola Blue   0275f2    rgba(2, 117, 242, 1) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url("../images/background.png");
-    padding: 20px; /* Add padding */
+    background: url("../images/background.png") repeat;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 #foreground {
@@ -34,13 +41,18 @@ header {
 }
 
 .quick-content {
-    max-width: 20%; /* Adjust the width */
+    max-width: 21%; /* Adjust the width */
     border: 3px solid #bf0a18;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     margin: 10px;
-    text-align: center;
+    text-align: left;
     align-self: flex-end; /* Align quick-content to the end */
+}
+
+.quick-content p {
+    padding: 5px;
+
 }
 
 .quick-content img {
