@@ -80,6 +80,16 @@
     a {
         color: #0275f2;
     }
+
+    .article-image {
+        float: left; /* Float the image to the left */
+        margin-right: 20px; /* Add some margin to the right for spacing */
+        max-height: 150px;
+    }
+    
+    .article-content {
+        overflow: hidden; /* Clear the float */
+    }    
     
     ul{
         list-style-type: none; /* Remove bullets */

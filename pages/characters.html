@@ -18,9 +18,9 @@
 
         <aside class="sidebar">
             <div class="sidebar-content">
-                <form class="search-form" action="/search" method="get">
-                    <input type="text" name="q" placeholder="Search...">
-                    <button type="submit"></button>
+                <form class="search-form" onsubmit="handleSearch(event)">
+                    <input type="text" id="searchInput" name="q" placeholder="Search...">
+                    <button type="submit" id="searchButton"></button>
                 </form>
                 <a href="home.html" class="page-link"><img src="../images/thouSunny-icon.png" alt="Home"></span>Home</a>
                 <a href="characters.html" class="page-link"><img src="../images/luffy-icon.png" alt="Characters">Characters</a>
