@@ -21,7 +21,7 @@ Punk Records is a comprehensive online resource dedicated to providing fans of t
 
 ## Getting Started
 
-To get started with Punk Records, simply visit the website at [www.punkrecords.wiki](#) and start exploring the vast world of One Piece. Whether you're a seasoned fan or new to the series, there's something for everyone on the site.
+To get started with Punk Records, simply visit the website at [www.punkrecords.wiki](www.punkrecords.wiki) and start exploring the vast world of One Piece. Whether you're a seasoned fan or new to the series, there's something for everyone on the site.
 
 ## Contributing
 
