@@ -3,9 +3,9 @@
 Welcome to Punk Records, a One Piece Wiki where you can explore information about characters, devil fruits, and organizations in the world of One Piece.
 
 ## Overview
-*For our web development class's final project, we decided to try and tackle a wiki. We chose the theme of One Piece and must give credit to how much inspiration we took from the official wiki. The intent of this project was to develop an acceptable final project whilst having fun implementing an idea we have interest in. Hence, the closer similarities to the official site will not be claimed as an idea completely thought of on our own. Some of the contents listed below are simply for show and have no functionality. If we were to continue developing this project then they would certainly have functionality in the near future.*
+***Background:** For our web development class's final project, my partner and I decided to try and tackle a wiki. We chose the theme of One Piece and must give credit to how much inspiration we took from the official wiki. The intent of this project was to develop an acceptable final project whilst having fun implementing an idea we have an interest in. Hence, the closer similarities to the official site will not be claimed as an idea completely thought of on our own. After completing the initial version of the I had a large interest to revisit the project to improve it. The original was a very basic implementation utilizing only HTML, CSS, and JS, without the help of any additional frameworks. This was due to our lack of experience with web development technologies as it was our first time learning it. Now that I have had a lot of further experience working with web development I decided I wanted to update the site and not only improve the implementation but add additional features as well. I will be using Vercel to deploy the site, Contentful to manage the content, Typescript to add type security, and rebuild it using Next/React.*
 
-Punk Records is a comprehensive online resource dedicated to providing fans of the One Piece series with detailed information about various aspects of the fictional world created by Eiichiro Oda. From character profiles to devil fruit abilities, our website aims to be your go-to destination for all things One Piece.
+Punk Records is a comprehensive online resource dedicated to providing fans of the One Piece series with detailed information about various aspects of the fictional world created by Eiichiro Oda. From character profiles to devil fruit abilities, our website aims to be your go-to destination for all things One Piece. *Currently still adding data*
 
 ## Features
 
@@ -15,13 +15,13 @@ Punk Records is a comprehensive online resource dedicated to providing fans of t
 
 - **Organizations**: Learn about the different organizations and groups that play significant roles in the One Piece universe.
 
-- **Search Functionality**: We were unable to successfully add a serach feature. Although, we were certainly close. It appears as if our current implementation finds the pages with the searched word, but is unable to display the content properly. This feature would certainly be next on the list of things to do.
+- **Search Functionality**: Search for specific articles with ease by using a search bar.
 
-- **Dark Mode**: Utilizing the toggle button at the top left of the screen, the user may switch between the default theme, light mode, as well as turning on dark mode. The current implementation of this has some kinks that need to be polished, but they have proved to be more difficult than expected.
+- **Dark Mode**: Utilizing the toggle button at the top left of the screen, the user may switch between light mode and dark mode.
 
 ## Getting Started
 
-To get started with Punk Records, simply visit our website at [www.punkrecords.wiki](#) and start exploring the vast world of One Piece. Whether you're a seasoned fan or new to the series, there's something for everyone on our site.
+To get started with Punk Records, simply visit the website at [www.punkrecords.wiki](#) and start exploring the vast world of One Piece. Whether you're a seasoned fan or new to the series, there's something for everyone on the site.
 
 ## Contributing
 
