@@ -33,6 +33,6 @@ We value your feedback and suggestions for improving Punk Records. If you have a
 
 ## License
 
-Punk Records is not licensed and a majority of the content is taken from the [Official Wiki](https://onepiece.fandom.com/wiki/One_Piece_Wiki). Please go show them some love for the hard work they do to keep a frequently updated and extensive wiki. Additionally, Any content that requires proper attribution will be. Especially, any content that requires a license.
+Punk Records is not licensed and a majority of the content is taken from the [Official Wiki](https://onepiece.fandom.com/wiki/One_Piece_Wiki). Please go show them some love for the hard work they do to keep a frequently updated and extensive wiki. Additionally, any content that requires proper attribution will be. Especially, any content that requires a license.
 *Fandom, please don't take my fun project site down :). It's only for practice and not intended to replace or contest with your site. If there is ever an issue that can be resolved easily then contact me at the email listed above. Thank you!*
 
